@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2_5</title>
+  <link rel="stylesheet" href="base.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+</head>
+<body>
+  <div id="input-area">
+    <input type="text" id="search-input" >
+    <button id="search-btn">ボタン</button>
+  </div>
+
+  <div id="color-box"></div>
+
+  <script>
+    $(document).ready(function() {
+      $('#search-btn').click(function() {
+        const value = $('#search-input').val().trim();
+
+        if (value === "1") {
+          $('#color-box').css('background-color', 'red');
+        } else if (value === "2") {
+          $('#color-box').css('background-color', 'lightgreen');
+        } else if (value === "3") {
+          $('#color-box').css('background-color', 'blue');
+        } else {
+          $('#color-box').css('background-color', 'gray'); 
+        }
+      });
+    });
+  </script>
+</body>
+</html>
+

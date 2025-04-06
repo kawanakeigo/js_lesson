@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  height: 100vh;
+  background-color: white;
+}
+
+.search-container {
+  display: flex;
+  align-items: start;
+  gap: 10px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 300px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+ 
+  color: black;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: white;
+}
+
+#error-message {
+  margin-top: 20px;
+  color: red;
+  font-weight: bold;
+  display: none;
+}
+

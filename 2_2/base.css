@@ -1,0 +1,27 @@
+body {
+  height: 100vh; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  margin: 0; 
+}
+
+
+
+
+
+
+
+
+button {
+            padding: 50px 100px;
+            font-size: 16px;
+            cursor: pointer;
+            margin: 5px;
+	    background-color:pink;
+        }
+       
+        button.active {
+            background-color: red;
+            color: white;
+        }

@@ -1,0 +1,31 @@
+body {
+ padding: 20px;
+        }
+
+
+
+#input-area {
+  position: start;
+  top: 20px;
+  right: 20px;
+}
+
+#search-input {
+  padding: 5px 10px;
+  font-size: 16px;
+}
+
+#search-btn {
+  padding: 6px 12px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+#color-box {
+  width:300px;
+  height: 200px;
+  background-color: gray;
+  margin:20px 20px; 
+}
+
