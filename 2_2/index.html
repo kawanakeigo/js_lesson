@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>HTML コメント例</title>
+	<link rel="stylesheet" href="base.css">
+</head>
+
+<body>
+
+	<button id="b1">button1</button>
+	<button id="b2">button2</button>
+	<button id="b3">button3</button>
+
+	<script>
+		const buttons = document.querySelectorAll('button');
+		buttons.forEach(button => {
+			button.addEventListener('click', () => {
+				buttons.forEach(btn => btn.classList.remove('active'));
+				button.classList.add('active');
+			});
+		});
+
+
+	</script>
+
+</body>
+
+</html>
