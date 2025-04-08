@@ -1,23 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML コメント例</title>
-    <link rel="stylesheet" href="base.css">
-	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML コメント例</title>
+  <link rel="stylesheet" href="base.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 </head>
+
 <body>
-<button id = "b">button</button>
-<script>
-$(document).ready(function () {
-      setTimeout(function () {
-        $('#b').fadeIn(1000).animate({
+  <button id="b">button</button>
+  <script>
+    $(document).ready(function () {
+      $('#b').click(function () {
+        $(this).animate({
           top: '80%',
           left: '30%'
-        }, 3000); 
-      }, 0000); 
-    });
-</script>
+        }, 3000);
+      });
+    });;
+  </script>
 </body>
+
 </html>
