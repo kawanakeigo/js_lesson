@@ -2,8 +2,6 @@ body {
   padding: 20px;
 }
 
-
-
 #input-area {
   position: start;
   top: 20px;
@@ -20,7 +18,6 @@ body {
   font-size: 16px;
   cursor: pointer;
 }
-
 
 #color-box {
   width: 300px;
